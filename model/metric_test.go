@@ -120,6 +120,10 @@ func TestMetricNameIsValid(t *testing.T) {
 			valid: true,
 		},
 		{
+			mn:    "a.valid.name",
+			valid: true,
+		},
+		{
 			mn:    "",
 			valid: false,
 		},
